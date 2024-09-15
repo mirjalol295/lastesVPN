@@ -1,0 +1,293 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./output.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container mx-auto px-20">
+        <header class="flex justify-between items-center py-5 relative">
+            <!-- Logo va text -->
+            <div class="flex items-center gap-2">
+                <img src="../images/Standard Collection 27.png" alt="LaslesVPN" class="w-9 h-9">
+                <h1 class="text-lg font-medium">Lasles<span class="font-bold">VPN</span></h1>
+            </div>
+    
+            
+            <div class="md:hidden">
+                <button id="menu-btn" class="focus:outline-none">
+                    <svg class="w-8 h-8 text-orange-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+                    </svg>
+                </button>
+            </div>
+    
+           
+            <nav class="hidden md:block">
+                <ul class="flex gap-10">
+                    <li class="group relative">
+                        <a href="#" class="text-base hover:text-orange-500 transition-colors duration-300">About</a>
+                        <span class="absolute left-0 bottom-0 w-full h-0.5 bg-orange-500 scale-x-0 group-hover:scale-x-100 transition-transform duration-500 ease-in-out origin-left"></span>
+                    </li>
+                    <li class="group relative">
+                        <a href="#" class="text-base hover:text-orange-500 transition-colors duration-300">Features</a>
+                        <span class="absolute left-0 bottom-0 w-full h-0.5 bg-orange-500 scale-x-0 group-hover:scale-x-100 transition-transform duration-500 ease-in-out origin-left"></span>
+                    </li>
+                    <li class="group relative">
+                        <a href="#" class="text-base hover:text-orange-500 transition-colors duration-300">Pricing</a>
+                        <span class="absolute left-0 bottom-0 w-full h-0.5 bg-orange-500 scale-x-0 group-hover:scale-x-100 transition-transform duration-500 ease-in-out origin-left"></span>
+                    </li>
+                    <li class="group relative">
+                        <a href="#" class="text-base hover:text-orange-500 transition-colors duration-300">Testimonials</a>
+                        <span class="absolute left-0 bottom-0 w-full h-0.5 bg-orange-500 scale-x-0 group-hover:scale-x-100 transition-transform duration-500 ease-in-out origin-left"></span>
+                    </li>
+                    <li class="group relative">
+                        <a href="#" class="text-base hover:text-orange-500 transition-colors duration-300">Help</a>
+                        <span class="absolute left-0 bottom-0 w-full h-0.5 bg-orange-500 scale-x-0 group-hover:scale-x-100 transition-transform duration-500 ease-in-out origin-left"></span>
+                    </li>
+                </ul>
+            </nav>
+            
+    
+            <!-- Buttons  -->
+            <div class="hidden md:flex gap-6">
+                <button class="btn-secondary">Sign In</button>
+                <button class="btn-primary">Sign Up</button>
+            </div>
+        </header>
+    
+        
+        <nav id="mobile-menu" class="hidden absolute top-16 right-0 left-0 bg-white shadow-lg p-5 md:hidden">
+            <ul class="flex flex-col gap-4">
+                <li><a href="#" class="text-base">About</a></li>
+                <li><a href="#" class="text-base">Features</a></li>
+                <li><a href="#" class="text-base">Pricing</a></li>
+                <li><a href="#" class="text-base">Testimonials</a></li>
+                <li><a href="#" class="text-base">Help</a></li>
+            </ul>
+        </nav>
+        <section class="flex flex-col md:flex-row items-center justify-between p-8 space-y-8 md:space-y-0">
+            
+            <div class="w-full md:w-[555px]">
+                <h1 class="text-4xl font-medium leading-[70px] text-left mb-4">
+                    Want anything to be easy with <span class="font-bold text-[#0B132A]">LaslesVPN.</span>
+                </h1>
+                <p class="text-base font-normal leading-[30px] text-left text-[#4F5665] mb-8">
+                    Provide a network for all your needs with ease and fun using LaslesVPN. Discover interesting features from us.
+                </p>
+                <button class="w-[250px] h-[60px] bg-[#F53838] text-white rounded-lg shadow-md transition-all duration-300 ease-in-out hover:bg-[#ffffff] hover:border hover:border-[#F53838] hover:text-[#F53838]">
+                    Get Started
+                </button>
+            </div>
+            <!-- Image -->
+            <div class="w-full md:w-[611.24px] h-[382.44px]">
+                <img src="../images/Illustration 1.png" alt="LaslesVPN" class="w-full h-full object-cover">
+            </div>
+        </section>
+        
+
+        <section class="relative w-full md:w-[1140px] h-[200px] mx-auto flex flex-col md:flex-row items-center">
+
+</section>
+<section class="flex flex-col lg:flex-row items-start justify-between p-8 space-y-8 lg:space-y-0 lg:space-x-8">
+    <!-- Card 1 -->
+    <div class="bg-white w-full lg:w-[350px] h-[200px] rounded-lg shadow-md flex flex-col items-center p-6 transition-transform transform hover:scale-105">
+        <div class="w-16 h-16 rounded-full bg-[#F53838] flex items-center justify-center mb-4">
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 11c-1.105 0-2-.895-2-2s.895-2 2-2 2 .895 2 2-.895 2-2 2zM12 3c-4.418 0-8 3.582-8 8 0 5.25 8 13 8 13s8-7.75 8-13c0-4.418-3.582-8-8-8z" />
+            </svg>
+        </div>
+        <h1 class="text-xl font-bold text-[#0B132A] mb-2">90+</h1>
+        <p class="text-base font-normal text-[#4F5665]">Users</p>
+    </div>
+
+    <!-- Line 1 -->
+    <div class="hidden lg:block h-[200px] w-[2px] bg-[#EEEFF2]"></div>
+
+    <!-- Card 2 -->
+    <div class="bg-white w-full lg:w-[350px] h-[200px] rounded-lg shadow-md flex flex-col items-center p-6 transition-transform transform hover:scale-105">
+        <div class="w-16 h-16 rounded-full bg-[#F53838] flex items-center justify-center mb-4">
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 11c-1.105 0-2-.895-2-2s.895-2 2-2 2 .895 2 2-.895 2-2 2zM12 3c-4.418 0-8 3.582-8 8 0 5.25 8 13 8 13s8-7.75 8-13c0-4.418-3.582-8-8-8z" />
+            </svg>
+        </div>
+        <h1 class="text-xl font-bold text-[#0B132A] mb-2">30+</h1>
+        <p class="text-base font-normal text-[#4F5665]">Locations</p>
+    </div>
+
+    <!--  Line 2 -->
+    <div class="hidden lg:block h-[200px] w-[2px] bg-[#EEEFF2]"></div>
+
+    <!-- Card 3 -->
+    <div class="bg-white w-full lg:w-[350px] h-[200px] rounded-lg shadow-md flex flex-col items-center p-6 transition-transform transform hover:scale-105">
+        <div class="w-16 h-16 rounded-full bg-[#F53838] flex items-center justify-center mb-4">
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 11c-1.105 0-2-.895-2-2s.895-2 2-2 2 .895 2 2-.895 2-2 2zM12 3c-4.418 0-8 3.582-8 8 0 5.25 8 13 8 13s8-7.75 8-13c0-4.418-3.582-8-8-8z" />
+            </svg>
+        </div>
+        <h1 class="text-xl font-bold text-[#0B132A] mb-2">50+</h1>
+        <p class="text-base font-normal text-[#4F5665]">Servers</p>
+    </div>
+</section>
+
+<section class="flex flex-col md:flex-row items-start justify-center p-8">
+    <div class="flex items-start flex-col md:flex-row">
+        <img src="../images/Illustration 2.png" alt="Feature Image" class="w-full max-w-[508.12px] h-auto md:w-[508.12px] md:h-[414.71px]">
+        <div class="mt-6 md:mt-0 md:ml-[169px] max-w-full md:max-w-[383.41px]">
+            <h1 class="text-[24px] md:text-[35px] font-medium leading-[36px] md:leading-[50px] text-left w-full md:w-[383.41px] h-auto md:h-[100px] mb-4 md:mb-5">
+                We Provide Many Features You Can Use
+            </h1>
+            <p class="text-[14px] md:text-[16px] font-normal leading-[24px] md:leading-[30px] text-left text-[#4F5665] w-full md:w-[427.88px] h-auto md:h-[60px] mb-4 md:mb-5">
+                You can explore the features that we provide with fun and have their own functions each feature.
+            </p>
+            <div class="space-y-3">
+                <div class="flex items-center space-x-3">
+                    <input type="checkbox" id="check1" class="w-[20px] h-[20px] border-2 border-[#4F5665] rounded-full checked:bg-green-500">
+                    <label for="check1" class="text-[12px] md:text-[14px] font-normal leading-[24px] md:leading-[30px] text-[#4F5665]">Powerfull online protection.</label>
+                </div>
+                <div class="flex items-center space-x-3">
+                    <input type="checkbox" id="check2" class="w-[20px] h-[20px] border-2 border-[#4F5665] rounded-full checked:bg-green-500">
+                    <label for="check2" class="text-[12px] md:text-[14px] font-normal leading-[24px] md:leading-[30px] text-[#4F5665]">Powerfull online protection.</label>
+                </div>
+                <div class="flex items-center space-x-3">
+                    <input type="checkbox" id="check3" class="w-[20px] h-[20px] border-2 border-[#4F5665] rounded-full checked:bg-green-500">
+                    <label for="check3" class="text-[12px] md:text-[14px] font-normal leading-[24px] md:leading-[30px] text-[#4F5665]">Powerfull online protection.</label>
+                </div>
+                <div class="flex items-center space-x-3">
+                    <input type="checkbox" id="check4" class="w-[20px] h-[20px] border-2 border-[#4F5665] rounded-full checked:bg-green-500">
+                    <label for="check4" class="text-[12px] md:text-[14px] font-normal leading-[24px] md:leading-[30px] text-[#4F5665]">Powerfull online protection.</label>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="flex flex-col items-center my-20 px-4">
+
+    <h1 class="text-4xl font-medium text-center text-[#0B132A] mb-5 mt-20" style="width: 383.41px; height: 50px;">Choose Your Plan</h1>
+  
+    <p class="text-base font-normal text-center text-[#4F5665] mb-5" style="width: 555px; height: 60px;">
+      Let's choose the package that is best for you and explore it happily and cheerfully.
+    </p>
+    
+   
+    <div class="flex flex-wrap justify-center gap-8">
+      <!-- Card 1 -->
+      <div class="bg-white shadow-lg p-4 flex flex-col items-center rounded-lg" style="width: 330px; height: 450px;">
+        <img src="../images/Free.png" alt="Card Image" class="mb-5" style="width: 144.9px; height: 144.9px;">
+        <h1 class="text-xl font-bold mb-5 mt-2">Card Title</h1>
+        <div class="flex space-x-2 mb-5">
+          <!-- Circles -->
+          <div class="w-2.5 h-2.5 bg-[#0B132A] rounded-full"></div>
+          <div class="w-2.5 h-2.5 bg-[#0B132A] rounded-full"></div>
+          <div class="w-2.5 h-2.5 bg-[#0B132A] rounded-full"></div>
+          <div class="w-2.5 h-2.5 bg-[#0B132A] rounded-full"></div>
+        </div>
+        <p class="text-base font-normal text-center text-[#4F5665] mb-5">Unlimited Bandwidth</p>
+        <h2 class="text-xl font-medium text-center text-[#0B132A] mb-5">Free</h2>
+        <button class="w-44 h-11 rounded-full border-2 border-orange-500 text-orange-500 bg-transparent hover:bg-orange-500 hover:text-white transition duration-300">Select</button>
+      </div>
+      
+      <!-- Card 2 -->
+      <div class="bg-white shadow-lg p-4 flex flex-col items-center rounded-lg" style="width: 330px; height: 450px;">
+        <img src="../images/Free.png" alt="Card Image" class="mb-5" style="width: 144.9px; height: 144.9px;">
+        <h1 class="text-xl font-bold mb-5 mt-2">Card Title</h1>
+        <div class="flex space-x-2 mb-5">
+          <!-- Circles -->
+          <div class="w-2.5 h-2.5 bg-[#0B132A] rounded-full"></div>
+          <div class="w-2.5 h-2.5 bg-[#0B132A] rounded-full"></div>
+          <div class="w-2.5 h-2.5 bg-[#0B132A] rounded-full"></div>
+          <div class="w-2.5 h-2.5 bg-[#0B132A] rounded-full"></div>
+        </div>
+        <p class="text-base font-normal text-center text-[#4F5665] mb-5">Unlimited Bandwidth</p>
+        <h2 class="text-xl font-medium text-center text-[#0B132A] mb-5">Free</h2>
+        <button class="w-44 h-11 rounded-full border-2 border-orange-500 text-orange-500 bg-transparent hover:bg-orange-500 hover:text-white transition duration-300">Select</button>
+      </div>
+      
+      <!-- Card 3 -->
+      <div class="bg-white shadow-lg p-4 flex flex-col items-center rounded-lg" style="width: 330px; height: 450px;">
+        <img src="../images/Free.png" alt="Card Image" class="mb-5" style="width: 144.9px; height: 144.9px;">
+        <h1 class="text-xl font-bold mb-5 mt-2">Card Title</h1>
+        <div class="flex space-x-2 mb-5">
+          <!-- Circles -->
+          <div class="w-2.5 h-2.5 bg-[#0B132A] rounded-full"></div>
+          <div class="w-2.5 h-2.5 bg-[#0B132A] rounded-full"></div>
+          <div class="w-2.5 h-2.5 bg-[#0B132A] rounded-full"></div>
+          <div class="w-2.5 h-2.5 bg-[#0B132A] rounded-full"></div>
+        </div>
+        <p class="text-base font-normal text-center text-[#4F5665] mb-5">Unlimited Bandwidth</p>
+        <h2 class="text-xl font-medium text-center text-[#0B132A] mb-5">Free</h2>
+        <button class="w-44 h-11 rounded-full border-2 border-orange-500 text-orange-500 bg-transparent hover:bg-orange-500 hover:text-white transition duration-300">Select</button>
+      </div>
+    </div>
+  </section>
+  
+  <section class="flex flex-col items-center my-20 px-4">
+    <!-- Title -->
+    <h1 class="text-4xl font-medium text-center text-[#0B132A] mb-5 mt-20" style="width: 383.41px; height: 100px; line-height: 50px;">Choose Your Plan</h1>
+
+    <p class="text-base font-normal text-center text-[#4F5665] mb-5" style="width: 555px; height: 60px; line-height: 30px;">
+      Let's choose the package that is best for you and explore it happily and cheerfully.
+    </p>
+    
+    <!-- Image -->
+    <div class="w-full flex justify-center mt-20">
+      <img src="../images/Huge Global.png" alt="Description of Image" class="responsive-image">
+    </div>
+  </section>
+
+  <section class="flex justify-center my-10 px-4">
+    <div class="flex flex-wrap justify-center items-center w-full max-w-screen-lg gap-4">
+      <!-- Image 1 -->
+      <img src="../images/Mask Group (7).png" alt="Image 1" class="responsive-image" style="width: 156.25px; height: 50.62px;">
+      
+      <!-- Image 2 -->
+      <img src="../images/Mask Group (2).png" alt="Image 2" class="responsive-image" style="width: 156.25px; height: 50.62px;">
+      
+      <!-- Image 3 -->
+      <img src="../images/Mask Group (3).png" alt="Image 3" class="responsive-image" style="width: 277.76px; height: 208.32px;">
+      
+      <!-- Image 4 -->
+      <img src="../images/Mask Group (4).png" alt="Image 4" class="responsive-image" style="width: 187.02px; height: 63.59px;">
+      
+      
+    </div>
+  </section>
+    </div>
+    
+
+
+
+
+
+    <script>
+        const menuBtn = document.getElementById('menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+        let menuOpen = false;
+    
+        menuBtn.addEventListener('click', () => {
+            if (!menuOpen) {
+                menuBtn.innerHTML = `
+                <svg class="w-8 h-8 text-orange-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+                </svg>`;
+                mobileMenu.classList.remove('hidden');
+                mobileMenu.classList.add('block');
+                menuOpen = true;
+            } else {
+                menuBtn.innerHTML = `
+                <svg class="w-8 h-8 text-orange-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+                </svg>`;
+                mobileMenu.classList.remove('block');
+                mobileMenu.classList.add('hidden');
+                menuOpen = false;
+            }
+        });
+    </script>
+    
+</body>
+</html>
